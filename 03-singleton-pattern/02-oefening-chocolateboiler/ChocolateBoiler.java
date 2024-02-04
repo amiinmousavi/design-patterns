@@ -1,14 +1,14 @@
+// Een kookketel.
+// De ketel begint leeg. De gebruikscyclus is: vullen, koken, leegmaken.
 public class ChocolateBoiler {
 	private boolean empty;
 	private boolean boiled;
-
-	private static
-
+	
 	public ChocolateBoiler() {
 		empty = true;
 		boiled = false;
 	}
-
+	
 	public void fill() {
 		if (isEmpty()) {
 			empty = false;
@@ -30,12 +30,10 @@ public class ChocolateBoiler {
 	}
 	
 	public boolean isEmpty() {
-
 		return empty;
 	}
 	
 	public boolean isBoiled() {
-
 		return boiled;
 	}
 }
