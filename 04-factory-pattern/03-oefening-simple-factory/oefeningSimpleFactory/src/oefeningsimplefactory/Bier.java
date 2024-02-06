@@ -10,9 +10,7 @@ package oefeningsimplefactory;
  * @author Pieter.Lust
  */
 public class Bier extends Drank {
-
 	public Bier() {
 		super("bier");
 	}
-	
 }

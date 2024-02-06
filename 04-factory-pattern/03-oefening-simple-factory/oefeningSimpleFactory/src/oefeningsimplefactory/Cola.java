@@ -6,13 +6,10 @@
 package oefeningsimplefactory;
 
 /**
- *
  * @author Pieter.Lust
  */
 public class Cola extends Drank {
-
-	public Cola() {
-		super("Cola");
-	}
-	
+    public Cola() {
+        super("Cola");
+    }
 }

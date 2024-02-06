@@ -11,11 +11,9 @@ package oefeningsimplefactory;
  */
 public abstract class Drank {
 	private String naam;
-	
 	public String getNaam() {
 		return this.naam;
 	}
-
 	public Drank(String naam) {
 		this.naam = naam;
 	}
