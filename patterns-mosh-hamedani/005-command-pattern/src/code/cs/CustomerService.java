@@ -1,4 +1,4 @@
-package code;
+package code.cs;
 
 public class CustomerService {
     public void addCustomer() {

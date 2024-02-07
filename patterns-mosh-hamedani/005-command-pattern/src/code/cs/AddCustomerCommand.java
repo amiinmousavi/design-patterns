@@ -1,4 +1,4 @@
-package code;
+package code.cs;
 
 import code.fx.Command;
 
